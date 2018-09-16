@@ -13,5 +13,5 @@ module.exports = function XYZIHandler(Buffer, contentStartByteIndex){
     };
   }
 
-  return voxelData;
+  return {voxelData};
 };

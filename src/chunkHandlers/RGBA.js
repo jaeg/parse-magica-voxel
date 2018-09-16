@@ -10,5 +10,5 @@ module.exports = function RGBAHandler(Buffer, contentStartByteIndex){
       a: Buffer[readByteIndex++],
     }
   }
-  return colors;
+  return {colors};
 };
